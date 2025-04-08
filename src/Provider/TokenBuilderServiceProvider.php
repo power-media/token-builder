@@ -1,6 +1,6 @@
 <?php
 
-namespace Shetabit\TokenBuilder;
+namespace Shetabit\TokenBuilder\Provider;
 
 use Illuminate\Support\ServiceProvider;
 use Shetabit\TokenBuilder\Builder;

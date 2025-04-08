@@ -1,5 +1,5 @@
 {
-    "name": "power-media/token-builder",
+    "name": "shetabit/token-builder",
     "type": "library",
     "description": "Laravel Token Builder",
     "keywords": [
@@ -40,7 +40,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Shetabit\\TokenBuilder\\": "src"
+            "Shetabit\\TokenBuilder\\": "src/"
         }
     },
     "autoload-dev": {
