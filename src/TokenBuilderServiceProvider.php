@@ -1,6 +1,6 @@
 <?php
 
-namespace Shetabit\TokenBuilder\Provider;
+namespace Shetabit\TokenBuilder;
 
 use Illuminate\Support\ServiceProvider;
 use Shetabit\TokenBuilder\Builder;
@@ -19,7 +19,7 @@ class TokenBuilderServiceProvider extends ServiceProvider
          */
         $this->publishes(
             [
-                __DIR__.'/../../database/migrations/' => database_path('migrations')
+                __DIR__ . '/../database/migrations/' => database_path('migrations')
             ],
             'migrations'
         );
